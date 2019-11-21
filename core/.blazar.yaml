@@ -1,0 +1,10 @@
+buildpack:
+  host: git.hubteam.com
+  organization: HubSpotProtected
+  repository: Blazar-Buildpack-Java
+  branch: v2
+
+enabled: true
+
+env:
+  SKIP_VERSION_OVERRIDE_ON_BRANCH: 0.7.7-hubspot
