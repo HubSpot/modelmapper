@@ -13,8 +13,8 @@
   <version>0.7.7-hubspot-SNAPSHOT</version>
 
   <properties>
-    <cglib.version>3.2.4</cglib.version>
-    <asm.version>5.1</asm.version>
+    <cglib.version>3.3.0</cglib.version>
+    <asm.version>7.2</asm.version>
     <objenesis.version>2.1</objenesis.version>
   </properties>
 

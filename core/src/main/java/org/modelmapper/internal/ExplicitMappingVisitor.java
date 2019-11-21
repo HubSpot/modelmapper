@@ -28,7 +28,7 @@ import org.objectweb.asm.tree.MethodInsnNode;
 
 /**
  * Visits explicitly declared mappings, capturing mapping information.
- * 
+ *
  * @author Jonathan Halterman
  */
 public class ExplicitMappingVisitor extends ClassVisitor {
@@ -65,7 +65,7 @@ public class ExplicitMappingVisitor extends ClassVisitor {
 
   public ExplicitMappingVisitor(Errors errors, InheritingConfiguration config,
       String propertyMapClassName, String destinationClassName, ClassLoader propertyMapClassLoader) {
-    super(Opcodes.ASM5);
+    super(Opcodes.ASM7);
     this.errors = errors;
     this.config = config;
     propMapClassInternalName = propertyMapClassName.replace('.', '/');
@@ -100,7 +100,7 @@ public class ExplicitMappingVisitor extends ClassVisitor {
     private int mapType;
 
     private MappingCapturingVisitor() {
-      super(Opcodes.ASM5);
+      super(Opcodes.ASM7);
     }
 
     @Override
